@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Ui Design",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Figma", "Bootstrap"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Abdulwahab311"
+  },
+  {
+    "title": "Mobile Site",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Html", "React js", "Tailwind"],
+    "demo": "https://github.com/Abdulwahab311/e-cart-mobile",
+    "source": "https://github.com/Abdulwahab311"
+  },
+  {
+    "title": "Create Own Site",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Html", "Css"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Abdulwahab311"
+  },
+  {
+    "title": "Malamine Site",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Html", "Tailwind","React router Dom"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Abdulwahab311"
+  }
+]

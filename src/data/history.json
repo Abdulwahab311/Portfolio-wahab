@@ -1,0 +1,31 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Google",
+    "startDate": "march, 2024",
+    "endDate": "Present",
+    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "UI Designer",
+    "organisation": "Mirosoft",
+    "startDate": "march, 2024",
+    "endDate": "Jun, 2024",
+    "experiences": ["Worked on Windows 10", "Designed the control panel"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "Intern At",
+    "organisation": "Cedars",
+    "startDate": "march, 2024",
+    "endDate": "Jun, 2024",
+    "experiences": [
+      "Worked on component",
+      "create UI components",
+      "working on figma",
+      "Create UI client project"
+    ],
+    "imageSrc": "history/cedar.png"
+  }
+]

@@ -1,0 +1,148 @@
+@import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Lobster", sans-serif;
+  text-underline-position: under;
+  text-decoration: underline;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(186, 45, 45, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+
+.description {
+  font-size: 30px;
+  font-family: "Sedan SC", serif;
+  margin-bottom: 52px;
+  color: rgb(255, 255, 255);
+}
+
+.contactBtn {
+ 
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(176, 56, 56) 50%, rgba(252,176,69,1) 100%);
+  color: rgb(184, 197, 171);
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: "Platypi", serif;
+}
+.contactBtn1{
+  text-decoration: none;
+ margin-top: 10px;
+ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  color: rgb(194, 232, 155);
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: "Platypi", serif;
+}
+.heading{
+  color: red;
+}
+
+.heroImg {
+  width: 20rem;
+  z-index: 1;
+  border-radius: 100%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .description {
+    font-size: 20px;
+    font-family: "Sedan SC", serif;
+    color: rgb(154, 180, 201);
+  }
+  .heroImg{
+    width: 80%;
+  } 
+  
+}
