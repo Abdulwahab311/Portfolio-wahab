@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-import pdf from "../pdf/wahab CV.pdf"
+import pdf from "../pdf/ABDUL WAHAB CV (1).pdf"
 export const Hero = () => {
   
   return (
@@ -19,7 +19,7 @@ export const Hero = () => {
         </a>
         <a
             href={pdf}
-            download="wahab CV.pdf"
+            download="ABDUL WAHAB CV (1)"
             className={styles.contactBtn1}
           >
             Download Resume
